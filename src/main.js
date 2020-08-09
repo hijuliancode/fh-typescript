@@ -1,8 +1,14 @@
 console.log('Hello TypeScript');
 // Booleans
-var esSuperman = true;
-var esBatman;
-esSuperman = convertirClark();
-function convertirClark() {
-    return false;
+function _booleans() {
+    var esSuperman = true;
+    var esBatman;
+    esSuperman = convertirClark();
+    function convertirClark() {
+        return false;
+    }
 }
+// _booleans()
+// Numbers
+function _numbers() { }
+_numbers();

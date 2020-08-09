@@ -2,11 +2,21 @@ console.log('Hello TypeScript')
 
 // Booleans
 
-let esSuperman : boolean = true;
-let esBatman : boolean;
+function _booleans() {
+  let esSuperman : boolean = true;
+  let esBatman : boolean;
 
-esSuperman = convertirClark()
+  esSuperman = convertirClark()
 
-function convertirClark() {
+  function convertirClark() {
     return false;
+  }
 }
+
+// _booleans()
+
+// Numbers
+
+function _numbers() {}
+
+_numbers()

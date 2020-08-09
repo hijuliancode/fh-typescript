@@ -1,45 +1,41 @@
 console.log('Hello TypeScript')
 
-// Booleans
+//// Booleans
 
-function _booleans() {
-  let esSuperman : boolean = true;
-  let esBatman : boolean;
+  function _booleans() {
+    let esSuperman : boolean = true;
+    let esBatman : boolean;
 
-  esSuperman = convertirClark()
+    esSuperman = convertirClark()
 
-  function convertirClark() {
-    return false;
+    function convertirClark() {
+      return false;
+    }
   }
-}
+  // _booleans()
 
-// _booleans()
+//// Numbers
 
-// Numbers
+  function _numbers() {
+    let avengers: number = 5;
+    let villanos: number = 2;
+    let otros: number = 2;
 
-function _numbers() {
-  let avengers: number = 5;
-  let villanos: number = 2;
-  let otros: number = 2;
-
-  if(avengers > villanos) {
-    console.log('Estamos salvados');
-  } else {
-    console.log('Estamos muertos');
+    if(avengers > villanos) {
+      console.log('Estamos salvados');
+    } else {
+      console.log('Estamos muertos');
+    }
   }
+  // _numbers()
 
-}
+//// Strings
 
-_numbers()
+  function _strings() {
+    let batman: string = 'Batman';
+    let linternaVerde: string = 'Linterna Verde';
 
-// Strings
-
-function _strings() {
-  let batman: string = 'Batman';
-  let linternaVerde: string = 'Linterna Verde';
-
-  let heroes = `Los héroes son : ${batman}, ${linternaVerde}`;
-  console.log(heroes)
-}
-
-_strings()
+    let heroes = `Los héroes son : ${batman}, ${linternaVerde}`;
+    console.log(heroes)
+  }
+  // _strings()

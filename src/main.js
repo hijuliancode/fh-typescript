@@ -1,5 +1,5 @@
 console.log('Hello TypeScript');
-// Booleans
+//// Booleans
 function _booleans() {
     var esSuperman = true;
     var esBatman;
@@ -9,7 +9,7 @@ function _booleans() {
     }
 }
 // _booleans()
-// Numbers
+//// Numbers
 function _numbers() {
     var avengers = 5;
     var villanos = 2;
@@ -21,12 +21,12 @@ function _numbers() {
         console.log('Estamos muertos');
     }
 }
-_numbers();
-// Strings
+// _numbers()
+//// Strings
 function _strings() {
     var batman = 'Batman';
     var linternaVerde = 'Linterna Verde';
     var heroes = "Los h\u00E9roes son : " + batman + ", " + linternaVerde;
     console.log(heroes);
 }
-_strings();
+// _strings()

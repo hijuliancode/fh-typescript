@@ -75,3 +75,12 @@ function _void() {
     llamar_batman();
 }
 // _void()
+//// Never
+// Sirve para hacer puntos criticos en nuestro programa, o lineas de código que nunca deben de suceder
+function _never() {
+    function error(mensaje) {
+        throw new Error(mensaje);
+    }
+    error("Error critico, linea 128 alcanzada.");
+}
+_never();

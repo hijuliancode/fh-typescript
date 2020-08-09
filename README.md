@@ -1,1 +1,1 @@
-# fh-typescript
+## Typescript Course

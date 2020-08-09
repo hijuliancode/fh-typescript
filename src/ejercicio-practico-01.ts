@@ -12,10 +12,16 @@ let villano:[string, number, boolean] = ["Lex Lutor",5,true];
 let aliados:string[] = ["Mujer Maravilla","Acuaman","San", "Flash"];
 
 //Enumeraciones
-let fuerzaFlash:number = 5;
-let fuerzaSuperman:number = 100;
-let fuerzaBatman:number = 1;
-let fuerzaAcuaman:number = 0;
+enum Fuerza {
+    acuaman = 0,
+    batman = 1,
+    flash = 5,
+    superman = 100,
+}
+let fuerzaFlash:number = Fuerza.flash;
+let fuerzaSuperman:number = Fuerza.superman;
+let fuerzaBatman:number = Fuerza.batman;
+let fuerzaAcuaman:number = Fuerza.acuaman;
 
 // Retorno de funciones
 function activar_batiseñal():string {
@@ -30,3 +36,7 @@ function pedir_ayuda():void {
 let poder:any = "100";
 let largoDelPoder:number = (<string>poder).length;
 console.log( largoDelPoder );
+
+let poder2:number = 100;
+let largoDelPoder2:number = (poder2.toString()).length;
+console.log( largoDelPoder2 );

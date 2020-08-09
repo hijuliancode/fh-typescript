@@ -22,3 +22,11 @@ function _numbers() {
     }
 }
 _numbers();
+// Strings
+function _strings() {
+    var batman = 'Batman';
+    var linternaVerde = 'Linterna Verde';
+    var heroes = "Los h\u00E9roes son : " + batman + ", " + linternaVerde;
+    console.log(heroes);
+}
+_strings();

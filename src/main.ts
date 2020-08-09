@@ -31,3 +31,15 @@ function _numbers() {
 }
 
 _numbers()
+
+// Strings
+
+function _strings() {
+  let batman: string = 'Batman';
+  let linternaVerde: string = 'Linterna Verde';
+
+  let heroes = `Los héroes son : ${batman}, ${linternaVerde}`;
+  console.log(heroes)
+}
+
+_strings()

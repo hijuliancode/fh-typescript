@@ -126,4 +126,18 @@ console.log('Hello TypeScript')
       }
       error("Error critico, linea 128 alcanzada.")
     }
-    _never()
+    // _never()
+
+
+
+//// Aserciones de tipo - 
+
+  function _type_assertions() {
+    let cualquierValor:any = 'Cualquier cosa';
+    
+    let largoDelString:number = (<string>cualquierValor).length;
+
+    console.log(largoDelString);
+    
+  }
+  _type_assertions()

@@ -83,4 +83,11 @@ function _never() {
     }
     error("Error critico, linea 128 alcanzada.");
 }
-_never();
+// _never()
+//// Aserciones de tipo - 
+function _type_assertions() {
+    var cualquierValor = 'Cualquier cosa';
+    var largoDelString = cualquierValor.length;
+    console.log(largoDelString);
+}
+_type_assertions();

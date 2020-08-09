@@ -46,6 +46,6 @@ function _any() {
 //// Arrays
 function _arrays() {
     var numeros = [1, 2, 3, 4, 5, 6];
-    console.log(numeros.push(7));
+    var villanos = ['Omega Rojo', 'Duende Verde', 'Dormammu'];
 }
-// _arrays()
+_arrays();

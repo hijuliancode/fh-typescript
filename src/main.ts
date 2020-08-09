@@ -63,3 +63,13 @@ console.log('Hello TypeScript')
     console.log(vengador)
   }
   // _any()
+
+
+
+//// Arrays
+
+  function _arrays() {
+    let numeros:number[] = [1, 2, 3, 4, 5, 6]
+    let villanos:string[] = ['Omega Rojo', 'Duende Verde', 'Dormammu']
+  }
+  _arrays()

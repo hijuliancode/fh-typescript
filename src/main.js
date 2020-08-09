@@ -50,11 +50,11 @@ function _arrays() {
 }
 _arrays();
 //// Tuples
-function tuples() {
+function _tuples() {
     var heroe = ['Dr. Strange', 100, true];
     console.log(heroe);
 }
-// tuples()
+// _tuples()
 //// Enum
 function _enum() {
     var Volumen;
@@ -66,4 +66,12 @@ function _enum() {
     var audio = Volumen.medio;
     console.log(audio);
 }
-_enum();
+// _enum()
+//// Void
+function _void() {
+    function llamar_batman() {
+        console.log('mostrar batiseñal');
+    }
+    llamar_batman();
+}
+// _void()

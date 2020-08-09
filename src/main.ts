@@ -78,13 +78,13 @@ console.log('Hello TypeScript')
 
 //// Tuples
 
-  function tuples() {
+  function _tuples() {
     let heroe:[ string, number, boolean ] = ['Dr. Strange', 100, true]
 
     console.log(heroe)  
 
   }
-  // tuples()
+  // _tuples()
 
 
 //// Enum
@@ -100,4 +100,18 @@ console.log('Hello TypeScript')
     console.log(audio);
     
   }
-  _enum()
+  // _enum()
+
+
+
+//// Void
+
+  function _void() {
+    function llamar_batman():void {
+      console.log('mostrar batiseñal');
+    }
+
+    llamar_batman()
+    
+  }
+  // _void()

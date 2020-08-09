@@ -99,4 +99,4 @@ function _null_undefined() {
     var numero = undefined;
     numero = 10;
 }
-_null_undefined();
+// _null_undefined()

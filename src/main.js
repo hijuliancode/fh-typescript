@@ -49,3 +49,9 @@ function _arrays() {
     var villanos = ['Omega Rojo', 'Duende Verde', 'Dormammu'];
 }
 _arrays();
+//// Tuples
+function tuples() {
+    var heroe = ['Dr. Strange', 100, true];
+    console.log(heroe);
+}
+tuples();

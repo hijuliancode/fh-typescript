@@ -73,3 +73,15 @@ console.log('Hello TypeScript')
     let villanos:string[] = ['Omega Rojo', 'Duende Verde', 'Dormammu']
   }
   _arrays()
+
+
+
+//// Tuples
+
+function tuples() {
+  let heroe:[ string, number, boolean ] = ['Dr. Strange', 100, true]
+
+  console.log(heroe)  
+
+}
+tuples()

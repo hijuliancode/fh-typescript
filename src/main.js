@@ -90,4 +90,13 @@ function _type_assertions() {
     var largoDelString = cualquierValor.length;
     console.log(largoDelString);
 }
-_type_assertions();
+// _type_assertions()
+//// Null & Undefined
+function _null_undefined() {
+    var ironman;
+    ironman = "Tony";
+    ironman = null;
+    var numero = undefined;
+    numero = 10;
+}
+_null_undefined();

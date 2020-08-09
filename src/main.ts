@@ -140,4 +140,22 @@ console.log('Hello TypeScript')
     console.log(largoDelString);
     
   }
-  _type_assertions()
+  // _type_assertions()
+
+
+
+//// Null & Undefined
+
+function _null_undefined() {
+   let ironman: string
+
+   ironman = "Tony"
+
+   ironman = null
+
+   let numero:number = undefined
+
+   numero = 10
+  
+}
+_null_undefined()

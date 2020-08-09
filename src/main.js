@@ -30,3 +30,16 @@ function _strings() {
     console.log(heroes);
 }
 // _strings()
+//// Any // Al no asignar el tipo, por defecto es tipo Any
+function _any() {
+    var vengador; // Tipo Any
+    var existe; // Tipo Any
+    var derrotas; // Tipo Any
+    vengador = 'Dr. Strange';
+    console.log(vengador.charAt(0));
+    vengador = 150.55554;
+    console.log(vengador.toFixed(2));
+    vengador = true;
+    console.log(vengador);
+}
+_any();

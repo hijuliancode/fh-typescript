@@ -78,10 +78,26 @@ console.log('Hello TypeScript')
 
 //// Tuples
 
-function tuples() {
-  let heroe:[ string, number, boolean ] = ['Dr. Strange', 100, true]
+  function tuples() {
+    let heroe:[ string, number, boolean ] = ['Dr. Strange', 100, true]
 
-  console.log(heroe)  
+    console.log(heroe)  
 
-}
-tuples()
+  }
+  // tuples()
+
+
+//// Enum
+
+  function _enum() {
+    enum Volumen {
+      min = 1, 
+      medio = 5,
+      max = 10,
+    }
+    let audio: number = Volumen.medio
+
+    console.log(audio);
+    
+  }
+  _enum()

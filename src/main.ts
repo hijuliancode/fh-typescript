@@ -14,6 +14,8 @@ console.log('Hello TypeScript')
   }
   // _booleans()
 
+
+
 //// Numbers
 
   function _numbers() {
@@ -29,6 +31,8 @@ console.log('Hello TypeScript')
   }
   // _numbers()
 
+
+
 //// Strings
 
   function _strings() {
@@ -40,20 +44,22 @@ console.log('Hello TypeScript')
   }
   // _strings()
 
+
+
 //// Any // Al no asignar el tipo, por defecto es tipo Any
-function _any() {
-  let vengador:any; // Tipo Any
-  let existe; // Tipo Any
-  let derrotas; // Tipo Any
 
-  vengador = 'Dr. Strange';
-  console.log(vengador.charAt(0))
+  function _any() {
+    let vengador:any; // Tipo Any
+    let existe; // Tipo Any
+    let derrotas; // Tipo Any
 
-  vengador = 150.55554;
-  console.log(vengador.toFixed(2))
+    vengador = 'Dr. Strange';
+    console.log(vengador.charAt(0))
 
-  vengador = true;
-  console.log(vengador)
-}
+    vengador = 150.55554;
+    console.log(vengador.toFixed(2))
 
-_any()
+    vengador = true;
+    console.log(vengador)
+  }
+  // _any()

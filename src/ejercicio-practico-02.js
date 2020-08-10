@@ -9,6 +9,7 @@ var superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
 contar(superHeroes);
 //Parametros por defecto
 function llamarBatman(llamar) {
+    if (llamar === void 0) { llamar = true; }
     if (llamar) {
         console.log("Batiseñal activada");
     }
@@ -27,3 +28,4 @@ function noHaceNada(numero, texto, booleano, arreglo) {
 }
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
 var noHaceNadaTampoco;
+noHaceNadaTampoco = noHaceNada;
